@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+</head>
+<body>
+  <div class="navbar">
+	<div class="navbar-inner">
+	  <div class="container">
+	    <a class="brand">
+		  Billion Dollar Question
+		</a>
+		<ul class="nav">
+		  <li><a href="#">Contribute</a></li>
+		  <li><a href="#">Apply For Scholarship</a></li>
+		  <li><a href="#">About</a></li>
+		  <li><a href="#">Contact</a></li>
+		</ul>
+	  </div>
+	</div>
+  </div>
+  <div class="container">
+    <div class="hero-unit">
+  	    <h1>The Billion Dollar Question</h1>
+  	    How long does it take to make a billion dollars?
+      <div class="span10">
+        <a href="#" class="btn btn-success">Contribute</a>
+	  </div>
+	</div>
+  </div>
+  <div class="container">
+    <div class="row">
+  	  <div class="span4">
+ 	    <h2>Goal</h2>
+		<ol>
+		  <li>Raise a billion dollars</li>
+	      <li>Give money to scholarships</li>
+		  <li>???</li>
+		  <li><strike>Profit!</strike> Feel good!</li>
+		</ol>
+	  </div>
+	  <div class="span4">
+	    <h2>How it works</h2>
+		Donated money will go into a scholarship fund. Every $1000
+		raised is put for a new scholarship. Students may 
+		<a href="#">Apply for the scholarship</a> If your dontaion
+		reaches the next $1000 you can decide how 1/4 of that 
+		money is spent.
+	  </div>
+	  <div class="span4">
+	    <h2>Students</h2>
+		If you are an <a href="#"> eligible college student</a> you
+		<a href="#">may apply for a scholarship</a>. A randomly chosen
+		student will be awarded a scholarship at each $1000 interval
+	  </div>
+    </div>
+	<div class="row">
+      <br />
+	  <h1>Contributors</h1>
+      <!-- Company View Template -->
+      <style>
+	    .company{
+		    background-color: #EEE;
+			padding: 20px;
+			border-radius: 6px;
+    	}
+	  </style>
+      <div class="company span2">
+		<img src="img/fb.png" width="50"/>
+		<a href="#">Big Co Inc.</a><br />
+		<span class="donated">$50.00</span><br />
+		<a href="#">Details</a>
+      </div>
+	</div>
+  </div>
+</body>
+<script type="text/javascript">
+function(){
+  var begindate = new Date();
+  var enddate = new Date("7/1/2012");
+  var diff = enddate - begindate;
+  var days = diff % 86400;
+  diff -= days * 84600;
+  var hours = diff % 3600;
+  diff -= hours * 3600;
+  var minutes = diff % 60;
+  diff -= minutes * 60;
+  var seconds = diff;
+  
+  console.log(days + ":" + hours + ":" + minutes + ":" + seconds);
+}
+</script>
+</html>
