@@ -1,0 +1,1179 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'jquery' ]
+info using npm@1.1.0-beta-10
+info using node@v0.6.7
+verbose config file C:\Users\Nicholas\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm 755
+verbose mkdir done: c:\xampp\htdocs\github\bdq 755
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\backbone\package.json
+verbose loadDefaults backbone@0.9.2
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\handlebars\package.json
+verbose loadDefaults handlebars@1.0.5beta
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\require\package.json
+verbose loadDefaults require@0.4.9
+verbose into c:\xampp\htdocs\github\bdq [ 'jquery' ]
+verbose cache add jquery
+verbose cache add [ 'jquery', null ]
+silly cache add: name, spec, args [ undefined, 'jquery', [ 'jquery', null ] ]
+verbose parsed url { pathname: 'jquery', path: 'jquery', href: 'jquery' }
+verbose addNamed [ 'jquery', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'jquery', '', false ]
+verbose raw, before any munging jquery
+verbose url resolving [ 'https://registry.npmjs.org/', './jquery' ]
+verbose url resolved https://registry.npmjs.org/jquery
+http GET https://registry.npmjs.org/jquery
+http 200 https://registry.npmjs.org/jquery
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"A1218YKVWVDBUJPLW160Q6NFH"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:34 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '5384' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery 755
+silly name, range, hasData 2 [ 'jquery', '', true ]
+silly versions [ 'jquery', [ '1.5.1', '1.6.2', '1.6.3', '1.7.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'a93746763aca75a34df4c16395b0826310d0eaf2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jquery/-/jquery-1.7.2.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jquery/-/jquery-1.7.2.tgz',
+verbose addRemoteTarball   'a93746763aca75a34df4c16395b0826310d0eaf2' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052 755
+http GET https://registry.npmjs.org/jquery/-/jquery-1.7.2.tgz
+http 200 https://registry.npmjs.org/jquery/-/jquery-1.7.2.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 39025
+info shasum a93746763aca75a34df4c16395b0826310d0eaf2
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277680535-0.20926719950512052\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277680535-0.20926719950512052\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package\package.json
+verbose loadDefaults jquery@1.7.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277680535-0.20926719950512052\\package',
+silly dir, dirLen   97 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277680535-0.20926719950512052\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\jquery\\1.7.2\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\jquery\\1.7.2\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package\package.json
+verbose loadDefaults jquery@1.7.2
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 38914
+info shasum f10c62702a6134161d7e8cf4b04899faae0727ab
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package.tgz
+silly resolved [ { name: 'jquery',
+silly resolved     description: 'jQuery: The Write Less, Do More, JavaScript Library (packaged for Node.JS)',
+silly resolved     version: '1.7.2',
+silly resolved     url: 'http://jquery.com',
+silly resolved     homepage: 'https://github.com/coolaj86/node-jquery',
+silly resolved     author: { name: 'James Morrin', email: 'treasonx@gmail.com' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/coolaj86/node-jquery.git' },
+silly resolved     bugs: { url: 'https://github.com/coolaj86/node-jquery/issues' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'https://github.com/coolaj86/node-jquery/blob/master/LICENSE-MIT' } ],
+silly resolved     main: 'lib/node-jquery',
+silly resolved     engines: { node: '0.6' },
+silly resolved     scripts: { test: 'grunt test' },
+silly resolved     dependencies: 
+silly resolved      { jsdom: '~0.2.14',
+silly resolved        htmlparser: '1.7.6',
+silly resolved        xmlhttprequest: '~1.3.0' },
+silly resolved     devDependencies: { grunt: '~0.3.8', nodeunit: '~0.7.4' },
+silly resolved     keywords: [ 'util', 'dom', 'jquery' ],
+silly resolved     _id: 'jquery@1.7.2',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'f10c62702a6134161d7e8cf4b04899faae0727ab' } } ]
+info into c:\xampp\htdocs\github\bdq jquery@1.7.2
+info installOne jquery@1.7.2
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\jquery\1.7.2\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\___jquery.npm'
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\___jquery.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\___jquery.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\___jquery.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery' ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\package.json
+verbose loadDefaults jquery@1.7.2
+info preinstall jquery@1.7.2
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\package.json
+verbose into c:\xampp\htdocs\github\bdq\node_modules\jquery [ 'jsdom@~0.2.14', 'htmlparser@1.7.6', 'xmlhttprequest@~1.3.0' ]
+verbose cache add htmlparser@1.7.6
+verbose cache add [ 'htmlparser@1.7.6', null ]
+silly cache add: name, spec, args [ undefined, 'htmlparser@1.7.6', [ 'htmlparser@1.7.6', null ] ]
+verbose parsed url { pathname: 'htmlparser@1.7.6',
+verbose parsed url   path: 'htmlparser@1.7.6',
+verbose parsed url   href: 'htmlparser@1.7.6' }
+silly cache add: name, spec, args [ 'htmlparser', '1.7.6', [ 'htmlparser', '1.7.6' ] ]
+verbose parsed url { pathname: '1.7.6', path: '1.7.6', href: '1.7.6' }
+verbose addNamed [ 'htmlparser', '1.7.6' ]
+verbose addNamed [ '1.7.6', '1.7.6' ]
+verbose cache add xmlhttprequest@~1.3.0
+verbose cache add [ 'xmlhttprequest@~1.3.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'xmlhttprequest@~1.3.0',
+silly cache add: name, spec, args   [ 'xmlhttprequest@~1.3.0', null ] ]
+verbose parsed url { pathname: 'xmlhttprequest@~1.3.0',
+verbose parsed url   path: 'xmlhttprequest@~1.3.0',
+verbose parsed url   href: 'xmlhttprequest@~1.3.0' }
+silly cache add: name, spec, args [ 'xmlhttprequest', '~1.3.0', [ 'xmlhttprequest', '~1.3.0' ] ]
+verbose parsed url { pathname: '~1.3.0', path: '~1.3.0', href: '~1.3.0' }
+verbose addNamed [ 'xmlhttprequest', '~1.3.0' ]
+verbose addNamed [ null, '>=1.3.0- <1.4.0-' ]
+silly name, range, hasData [ 'xmlhttprequest', '>=1.3.0- <1.4.0-', false ]
+verbose cache add jsdom@~0.2.14
+verbose cache add [ 'jsdom@~0.2.14', null ]
+silly cache add: name, spec, args [ undefined, 'jsdom@~0.2.14', [ 'jsdom@~0.2.14', null ] ]
+verbose parsed url { pathname: 'jsdom@~0.2.14',
+verbose parsed url   path: 'jsdom@~0.2.14',
+verbose parsed url   href: 'jsdom@~0.2.14' }
+silly cache add: name, spec, args [ 'jsdom', '~0.2.14', [ 'jsdom', '~0.2.14' ] ]
+verbose parsed url { pathname: '~0.2.14', path: '~0.2.14', href: '~0.2.14' }
+verbose addNamed [ 'jsdom', '~0.2.14' ]
+verbose addNamed [ null, '>=0.2.14- <0.3.0-' ]
+silly name, range, hasData [ 'jsdom', '>=0.2.14- <0.3.0-', false ]
+verbose raw, before any munging htmlparser/1.7.6
+verbose url resolving [ 'https://registry.npmjs.org/', './htmlparser/1.7.6' ]
+verbose url resolved https://registry.npmjs.org/htmlparser/1.7.6
+http GET https://registry.npmjs.org/htmlparser/1.7.6
+verbose raw, before any munging xmlhttprequest
+verbose url resolving [ 'https://registry.npmjs.org/', './xmlhttprequest' ]
+verbose url resolved https://registry.npmjs.org/xmlhttprequest
+http GET https://registry.npmjs.org/xmlhttprequest
+verbose raw, before any munging jsdom
+verbose url resolving [ 'https://registry.npmjs.org/', './jsdom' ]
+verbose url resolved https://registry.npmjs.org/jsdom
+http GET https://registry.npmjs.org/jsdom
+http 200 https://registry.npmjs.org/htmlparser/1.7.6
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"VYM399RL5FTTJDEHFVWOCHIL"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:37 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '6478' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '6a263c7ee5930f3e5c56fa564011f99e49f80d34',
+verbose bin dist     tarball: 'http://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz',
+verbose addRemoteTarball   '6a263c7ee5930f3e5c56fa564011f99e49f80d34' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536 755
+http GET https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz
+http 200 https://registry.npmjs.org/xmlhttprequest
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BF7NW7UPTAL042B1WGBN09GO6"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:37 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '10224' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest 755
+silly name, range, hasData 2 [ 'xmlhttprequest', '>=1.3.0- <1.4.0-', true ]
+silly versions [ 'xmlhttprequest',
+silly versions   [ '1.0.0', '1.2.0', '1.2.1', '1.2.2', '1.3.0', '1.4.0', '1.4.2' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'f6888d76176a9e4217694aa168a02c366e5d454a',
+verbose bin dist     tarball: 'http://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.3.0.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.3.0.tgz',
+verbose addRemoteTarball   'f6888d76176a9e4217694aa168a02c366e5d454a' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036 755
+http GET https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.3.0.tgz
+http 200 https://registry.npmjs.org/jsdom
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"1MNEPV4LSRCC6BIU8LGWXPXFK"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:37 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '69508' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom 755
+silly name, range, hasData 2 [ 'jsdom', '>=0.2.14- <0.3.0-', true ]
+silly versions [ 'jsdom',
+silly versions   [ '0.0.1',
+silly versions     '0.1.2',
+silly versions     '0.1.4',
+silly versions     '0.1.5',
+silly versions     '0.1.6',
+silly versions     '0.1.7',
+silly versions     '0.1.8',
+silly versions     '0.1.9',
+silly versions     '0.1.10',
+silly versions     '0.1.11',
+silly versions     '0.1.12',
+silly versions     '0.1.13',
+silly versions     '0.1.15',
+silly versions     '0.1.16',
+silly versions     '0.1.17',
+silly versions     '0.1.18',
+silly versions     '0.1.19',
+silly versions     '0.1.20',
+silly versions     '0.1.21',
+silly versions     '0.1.22',
+silly versions     '0.1.23',
+silly versions     '0.2.0',
+silly versions     '0.2.1',
+silly versions     '0.2.2',
+silly versions     '0.2.3',
+silly versions     '0.2.4',
+silly versions     '0.2.5',
+silly versions     '0.2.6',
+silly versions     '0.2.7',
+silly versions     '0.2.8',
+silly versions     '0.2.9',
+silly versions     '0.2.10',
+silly versions     '0.2.11',
+silly versions     '0.2.12',
+silly versions     '0.2.13',
+silly versions     '0.2.14' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '713224f2e1a7b6f70bdd378f520a9d28bd32ecd8',
+verbose bin dist     tarball: 'http://registry.npmjs.org/jsdom/-/jsdom-0.2.14.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/jsdom/-/jsdom-0.2.14.tgz',
+verbose addRemoteTarball   '713224f2e1a7b6f70bdd378f520a9d28bd32ecd8' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371 755
+http GET https://registry.npmjs.org/jsdom/-/jsdom-0.2.14.tgz
+http 200 https://registry.npmjs.org/xmlhttprequest/-/xmlhttprequest-1.3.0.tgz
+http 200 https://registry.npmjs.org/htmlparser/-/htmlparser-1.7.6.tgz
+silly updated sha bytes 10240
+info shasum f6888d76176a9e4217694aa168a02c366e5d454a
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684062-0.6117747395765036\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684062-0.6117747395765036\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package\package.json
+verbose loadDefaults xmlhttprequest@1.3.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684062-0.6117747395765036\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684062-0.6117747395765036\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\xmlhttprequest\\1.3.0\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\xmlhttprequest\\1.3.0\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package\package.json
+verbose loadDefaults xmlhttprequest@1.3.0
+silly updated sha bytes 5005
+info shasum 0d1d008f9a8ef5d22588d98b6079881067b952b0
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package.tgz
+http 200 https://registry.npmjs.org/jsdom/-/jsdom-0.2.14.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 26969
+info shasum 713224f2e1a7b6f70bdd378f520a9d28bd32ecd8
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 38774
+info shasum 6a263c7ee5930f3e5c56fa564011f99e49f80d34
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684503-0.8520283636171371\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684503-0.8520283636171371\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package\package.json
+verbose loadDefaults jsdom@0.2.14
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684503-0.8520283636171371\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684503-0.8520283636171371\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684024-0.5895021418109536\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684024-0.5895021418109536\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package\package.json
+verbose loadDefaults htmlparser@1.7.6
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package
+WARN htmlparser@1.6.2 package.json: bugs['web'] should probably be bugs['url']
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package\pulls\node-htmlparser\package.json
+verbose loadDefaults htmlparser@1.6.2
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684024-0.5895021418109536\\package\\pulls\\node-htmlparser',
+silly dir, dirLen   118 ]
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277684024-0.5895021418109536\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277684024-0.5895021418109536\package
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\jsdom\\0.2.14\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\jsdom\\0.2.14\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package\package.json
+verbose loadDefaults jsdom@0.2.14
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 26559
+info shasum c9cc186a41d20d20ee0c6f9529989979e4fd5377
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\htmlparser\\1.7.6\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\htmlparser\\1.7.6\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package\package.json
+verbose loadDefaults htmlparser@1.7.6
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 38219
+info shasum b9730f07663630d0dd17a78909e5b293e81c183f
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package.tgz
+silly resolved [ { name: 'xmlhttprequest',
+silly resolved     description: 'XMLHttpRequest for Node',
+silly resolved     version: '1.3.0',
+silly resolved     author: { name: 'Dan DeFelippi' },
+silly resolved     licenses: [ { type: 'MIT', url: 'http://creativecommons.org/licenses/MIT/' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/driverdan/node-XMLHttpRequest.git' },
+silly resolved     engine: [ 'node >=0.4.0' ],
+silly resolved     main: './XMLHttpRequest.js',
+silly resolved     _id: 'xmlhttprequest@1.3.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '0d1d008f9a8ef5d22588d98b6079881067b952b0' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'jsdom',
+silly resolved     version: '0.2.14',
+silly resolved     description: 'A javascript implementation of the W3C DOM',
+silly resolved     keywords: [ 'dom', 'w3c', 'javascript' ],
+silly resolved     maintainers: 
+silly resolved      [ { name: 'Elijah Insua',
+silly resolved          email: 'tmpvar@gmail.com',
+silly resolved          url: 'http://tmpvar.com' } ],
+silly resolved     contributors: 
+silly resolved      [ { name: 'Vincent Greene', email: 'ulteriorlife@gmail.com' },
+silly resolved        { name: 'Dav Glass', email: 'davglass@gmail.com' },
+silly resolved        { name: 'Felix Gnass', email: 'fgnass@gmail.com' },
+silly resolved        { name: 'Charlie Robbins', email: 'charlie.robbins@gmail.com' },
+silly resolved        { name: 'Aria Stewart', email: 'aredridel@nbtsc.org' },
+silly resolved        { name: 'Matthew',
+silly resolved          email: 'N.A.',
+silly resolved          url: 'http://github.com/matthewpflueger/' },
+silly resolved        { name: 'Olivier El Mekki',
+silly resolved          email: 'unknown',
+silly resolved          url: 'http://blog.olivier-elmekki.com/' },
+silly resolved        { name: 'Shimon Dookdin', email: 'helpmepro1@gmail.com' },
+silly resolved        { name: 'Daniel Cassidy',
+silly resolved          email: 'mail@danielcassidy.me.uk',
+silly resolved          url: 'http://www.danielcassidy.me.uk/' },
+silly resolved        { name: 'Sam Ruby',
+silly resolved          email: 'N/A',
+silly resolved          url: 'http://intertwingly.net/blog/' },
+silly resolved        { name: 'hij1nx', url: 'http://github.com/hij1nx' },
+silly resolved        { name: 'Yonathan Randolph', url: 'http://github.com/yonran' },
+silly resolved        { name: 'Martin Davis', url: 'http://github.com/waslogic' },
+silly resolved        { name: 'Andreas Lind Petersen', email: 'andreas@one.com' },
+silly resolved        { name: 'd-ash', url: 'http://github.com/d-ash' },
+silly resolved        { name: 'Robin Zhong', email: 'fbzhong@gmail.com' },
+silly resolved        { name: 'Alexander Flatter', email: 'flatter@gmail.com' },
+silly resolved        { name: 'Heng Liu', email: 'liucougar@gmail.com' },
+silly resolved        { name: 'Brian McDaniel', url: 'http://github.com/brianmcd' },
+silly resolved        { name: 'John Hurliman', email: 'jhurliman@jhurliman.org' },
+silly resolved        { name: 'Jimmy Mabey' },
+silly resolved        { name: 'Gregory Tomlinson' },
+silly resolved        { name: 'Jason Davies', url: 'http://www.jasondavies.com/' },
+silly resolved        { name: 'Josh Marshall',
+silly resolved          url: 'http://www.ponderingtheobvious.com/' },
+silly resolved        { name: 'Jason Priestley', url: 'https://github.com/jhp' },
+silly resolved        { name: 'Derek Lindahl', url: 'https://github.com/dlindahl' },
+silly resolved        { name: 'Chris Roebuck',
+silly resolved          email: 'chris@quillu.com',
+silly resolved          url: 'http://www.quillu.com' },
+silly resolved        { name: 'Avi Deitcher', url: 'https://github.com/deitch' },
+silly resolved        { name: 'Nao Iizuka',
+silly resolved          email: 'iizuka@kyu-mu.net',
+silly resolved          url: 'https://github.com/iizukanao' },
+silly resolved        { name: 'Peter Perenyi', url: 'https://github.com/sinegar' } ],
+silly resolved     bugs: 
+silly resolved      { email: 'tmpvar@gmail.com',
+silly resolved        url: 'http://github.com/tmpvar/jsdom/issues' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/tmpvar/jsdom/blob/master/LICENSE.txt' } ],
+silly resolved     repositories: [ { type: 'git', url: 'http://github.com/tmpvar/jsdom.git' } ],
+silly resolved     implements: [ 'http://www.w3.org/TR/REC-DOM-Level-1' ],
+silly resolved     dependencies: 
+silly resolved      { htmlparser: '1.x',
+silly resolved        request: '2.x',
+silly resolved        cssom: '0.2.x',
+silly resolved        contextify: '0.1.x' },
+silly resolved     optionalDependencies: { contextify: '0.1.x' },
+silly resolved     devDependencies: { nodeunit: '>=0.5.x', 'console.log': '*', optimist: '*' },
+silly resolved     engines: { node: '>=0.1.9' },
+silly resolved     directories: { lib: './lib/jsdom' },
+silly resolved     main: './lib/jsdom',
+silly resolved     _id: 'jsdom@0.2.14',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'c9cc186a41d20d20ee0c6f9529989979e4fd5377' },
+silly resolved     scripts: {} },
+silly resolved   { name: 'htmlparser',
+silly resolved     description: 'Forgiving HTML/XML/RSS Parser in JS for *both* Node and Browsers',
+silly resolved     version: '1.7.6',
+silly resolved     author: { name: 'Chris Winberry', email: 'chris@winberry.net' },
+silly resolved     contributors: [],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/tautologistics/node-htmlparser.git' },
+silly resolved     keywords: [ 'html', 'xml', 'rss', 'parser' ],
+silly resolved     directories: { lib: './lib/' },
+silly resolved     main: './lib/htmlparser',
+silly resolved     homepage: 'http://github.com/tautologistics/node-htmlparser',
+silly resolved     bugs: 
+silly resolved      { email: 'chris@winberry.net',
+silly resolved        url: 'http://github.com/tautologistics/node-htmlparser/issues' },
+silly resolved     engines: { node: '>=0.1.33' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/tautologistics/node-htmlparser/raw/master/LICENSE' } ],
+silly resolved     _id: 'htmlparser@1.7.6',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'b9730f07663630d0dd17a78909e5b293e81c183f' },
+silly resolved     scripts: {} } ]
+info into c:\xampp\htdocs\github\bdq\node_modules\jquery xmlhttprequest@1.3.0
+info into c:\xampp\htdocs\github\bdq\node_modules\jquery jsdom@0.2.14
+info into c:\xampp\htdocs\github\bdq\node_modules\jquery htmlparser@1.7.6
+info installOne xmlhttprequest@1.3.0
+info installOne jsdom@0.2.14
+info installOne htmlparser@1.7.6
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\xmlhttprequest\1.3.0\package\package.json
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\jsdom\0.2.14\package\package.json
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\htmlparser\1.7.6\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___xmlhttprequest.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___jsdom.npm'
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___xmlhttprequest.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___htmlparser.npm'
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___jsdom.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___htmlparser.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___xmlhttprequest.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\___xmlhttprequest.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\xmlhttprequest' ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest\package.json
+verbose loadDefaults xmlhttprequest@1.3.0
+info preinstall xmlhttprequest@1.3.0
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest\package.json
+verbose into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest []
+silly resolved []
+verbose about to build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest
+info build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\xmlhttprequest\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules' ]
+info linkStuff xmlhttprequest@1.3.0
+verbose linkBins xmlhttprequest@1.3.0
+verbose linkMans xmlhttprequest@1.3.0
+verbose rebuildBundles xmlhttprequest@1.3.0
+info install xmlhttprequest@1.3.0
+info postinstall xmlhttprequest@1.3.0
+verbose installOne cb xmlhttprequest@1.3.0
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___jsdom.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\___jsdom.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom' ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\package.json
+verbose loadDefaults jsdom@0.2.14
+info preinstall jsdom@0.2.14
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\package.json
+verbose into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom [ 'request@2.x', 'cssom@0.2.x', 'contextify@0.1.x' ]
+verbose cache add cssom@0.2.x
+verbose cache add [ 'cssom@0.2.x', null ]
+silly cache add: name, spec, args [ undefined, 'cssom@0.2.x', [ 'cssom@0.2.x', null ] ]
+verbose parsed url { pathname: 'cssom@0.2.x',
+verbose parsed url   path: 'cssom@0.2.x',
+verbose parsed url   href: 'cssom@0.2.x' }
+silly cache add: name, spec, args [ 'cssom', '0.2.x', [ 'cssom', '0.2.x' ] ]
+verbose parsed url { pathname: '0.2.x', path: '0.2.x', href: '0.2.x' }
+verbose addNamed [ 'cssom', '0.2.x' ]
+verbose addNamed [ null, '>=0.2.0- <0.3.0-' ]
+silly name, range, hasData [ 'cssom', '>=0.2.0- <0.3.0-', false ]
+verbose cache add contextify@0.1.x
+verbose cache add [ 'contextify@0.1.x', null ]
+silly cache add: name, spec, args [ undefined, 'contextify@0.1.x', [ 'contextify@0.1.x', null ] ]
+verbose parsed url { pathname: 'contextify@0.1.x',
+verbose parsed url   path: 'contextify@0.1.x',
+verbose parsed url   href: 'contextify@0.1.x' }
+silly cache add: name, spec, args [ 'contextify', '0.1.x', [ 'contextify', '0.1.x' ] ]
+verbose parsed url { pathname: '0.1.x', path: '0.1.x', href: '0.1.x' }
+verbose addNamed [ 'contextify', '0.1.x' ]
+verbose addNamed [ null, '>=0.1.0- <0.2.0-' ]
+silly name, range, hasData [ 'contextify', '>=0.1.0- <0.2.0-', false ]
+verbose cache add request@2.x
+verbose cache add [ 'request@2.x', null ]
+silly cache add: name, spec, args [ undefined, 'request@2.x', [ 'request@2.x', null ] ]
+verbose parsed url { pathname: 'request@2.x',
+verbose parsed url   path: 'request@2.x',
+verbose parsed url   href: 'request@2.x' }
+silly cache add: name, spec, args [ 'request', '2.x', [ 'request', '2.x' ] ]
+verbose parsed url { pathname: '2.x', path: '2.x', href: '2.x' }
+verbose addNamed [ 'request', '2.x' ]
+verbose addNamed [ null, '>=2.0.0- <3.0.0-' ]
+silly name, range, hasData [ 'request', '>=2.0.0- <3.0.0-', false ]
+verbose raw, before any munging cssom
+verbose url resolving [ 'https://registry.npmjs.org/', './cssom' ]
+verbose url resolved https://registry.npmjs.org/cssom
+http GET https://registry.npmjs.org/cssom
+verbose raw, before any munging contextify
+verbose url resolving [ 'https://registry.npmjs.org/', './contextify' ]
+verbose url resolved https://registry.npmjs.org/contextify
+http GET https://registry.npmjs.org/contextify
+verbose raw, before any munging request
+verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+verbose url resolved https://registry.npmjs.org/request
+http GET https://registry.npmjs.org/request
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\___htmlparser.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\___htmlparser.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\htmlparser' ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser\package.json
+verbose loadDefaults htmlparser@1.7.6
+info preinstall htmlparser@1.7.6
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser\package.json
+verbose into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser []
+silly resolved []
+verbose about to build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser
+info build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\htmlparser\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules' ]
+info linkStuff htmlparser@1.7.6
+verbose linkBins htmlparser@1.7.6
+verbose linkMans htmlparser@1.7.6
+verbose rebuildBundles htmlparser@1.7.6
+info install htmlparser@1.7.6
+info postinstall htmlparser@1.7.6
+verbose installOne cb htmlparser@1.7.6
+http 200 https://registry.npmjs.org/cssom
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"BMQOMU7S4UP01EGXZ3KW5UE1S"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '4308' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom 755
+silly name, range, hasData 2 [ 'cssom', '>=0.2.0- <0.3.0-', true ]
+silly versions [ 'cssom', [ '0.2.0', '0.2.1', '0.2.2', '0.2.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '7f9a236c0b05dbc06945ae055ba1c6d8eab91c69',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cssom/-/cssom-0.2.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/cssom/-/cssom-0.2.3.tgz',
+verbose addRemoteTarball   '7f9a236c0b05dbc06945ae055ba1c6d8eab91c69' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692 755
+http GET https://registry.npmjs.org/cssom/-/cssom-0.2.3.tgz
+http 200 https://registry.npmjs.org/contextify
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"37JIA37LHV1EH03EKTI42YQM"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '24791' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify 755
+silly name, range, hasData 2 [ 'contextify', '>=0.1.0- <0.2.0-', true ]
+silly versions [ 'contextify',
+silly versions   [ '0.0.2',
+silly versions     '0.0.3',
+silly versions     '0.0.4',
+silly versions     '0.0.5',
+silly versions     '0.0.6',
+silly versions     '0.0.7',
+silly versions     '0.1.0',
+silly versions     '0.1.1',
+silly versions     '0.1.2',
+silly versions     '0.1.3' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '83f6e19176b0c8ec94d55e01c8fcf25058113ad7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/contextify/-/contextify-0.1.3.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/contextify/-/contextify-0.1.3.tgz',
+verbose addRemoteTarball   '83f6e19176b0c8ec94d55e01c8fcf25058113ad7' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557 755
+http GET https://registry.npmjs.org/contextify/-/contextify-0.1.3.tgz
+http 200 https://registry.npmjs.org/request
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"5Q1JS1UUTJ8W12Z7LI2AP2ZQ8"',
+silly get cb     date: 'Sat, 09 Jun 2012 21:34:44 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '109175' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\request'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\request 755
+silly name, range, hasData 2 [ 'request', '>=2.0.0- <3.0.0-', true ]
+silly versions [ 'request',
+silly versions   [ '0.10.0',
+silly versions     '0.8.3',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.9.5',
+silly versions     '1.0.0',
+silly versions     '1.1.0',
+silly versions     '1.1.1',
+silly versions     '1.2.0',
+silly versions     '1.9.0',
+silly versions     '1.9.1',
+silly versions     '1.9.2',
+silly versions     '1.9.3',
+silly versions     '1.9.5',
+silly versions     '1.9.7',
+silly versions     '1.9.8',
+silly versions     '1.9.9',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.0.2',
+silly versions     '2.0.3',
+silly versions     '2.0.4',
+silly versions     '2.0.5',
+silly versions     '2.1.0',
+silly versions     '2.1.1',
+silly versions     '2.2.0',
+silly versions     '2.2.5',
+silly versions     '2.2.6',
+silly versions     '2.2.9',
+silly versions     '2.9.0',
+silly versions     '2.9.1',
+silly versions     '2.9.2',
+silly versions     '2.9.3',
+silly versions     '2.9.100',
+silly versions     '2.9.150',
+silly versions     '2.9.151',
+silly versions     '2.9.152',
+silly versions     '2.9.153',
+silly versions     '2.9.200',
+silly versions     '2.9.201',
+silly versions     '2.9.202' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.15-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'c61399cdfbbefda5dc48653b0e9bea517d9f8497',
+verbose bin dist     tarball: 'http://registry.npmjs.org/request/-/request-2.9.202.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.9.202.tgz',
+verbose addRemoteTarball   'c61399cdfbbefda5dc48653b0e9bea517d9f8497' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327 755
+verbose fetch to C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\tmp.tgz
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327 755
+http GET https://registry.npmjs.org/request/-/request-2.9.202.tgz
+http 200 https://registry.npmjs.org/cssom/-/cssom-0.2.3.tgz
+silly updated sha bytes 6768
+info shasum 7f9a236c0b05dbc06945ae055ba1c6d8eab91c69
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690347-0.666448084404692\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690347-0.666448084404692\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package\package.json
+verbose loadDefaults cssom@0.2.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690347-0.666448084404692\\package',
+silly dir, dirLen   95 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690347-0.666448084404692\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package
+silly gunzTarPerm modes [ '755', '644' ]
+http 200 https://registry.npmjs.org/contextify/-/contextify-0.1.3.tgz
+silly updated sha bytes 8142
+info shasum 83f6e19176b0c8ec94d55e01c8fcf25058113ad7
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\cssom\\0.2.3\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\cssom\\0.2.3\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package\package.json
+verbose loadDefaults cssom@0.2.3
+silly updated sha bytes 6748
+info shasum f64c6d0e5c136fa90b380c770e820b9f21912e2d
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package.tgz
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690609-0.2598327537998557\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690609-0.2598327537998557\\package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690609-0.2598327537998557\\package\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package\package.json
+verbose loadDefaults contextify@0.1.3
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277690609-0.2598327537998557\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277690609-0.2598327537998557\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\contextify\\0.1.3\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\contextify\\0.1.3\\package' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\contextify\\0.1.3\\package\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package\package.json
+verbose loadDefaults contextify@0.1.3
+silly updated sha bytes 8157
+info shasum 41a7d7b0cd119df46cdee1e130694d708836e6b7
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package.tgz
+http 200 https://registry.npmjs.org/request/-/request-2.9.202.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 33317
+info shasum c61399cdfbbefda5dc48653b0e9bea517d9f8497
+info shasum C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277691070-0.5392911341041327\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277691070-0.5392911341041327\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package\package.json
+verbose loadDefaults request@2.9.202
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package\package.json
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package
+verbose pack C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package.tgz
+silly makeList C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package
+silly dir, dirLen [ 'C:\\Users\\Nicholas\\AppData\\Local\\Temp\\npm-1339277680535\\1339277691070-0.5392911341041327\\package',
+silly dir, dirLen   96 ]
+verbose tarball C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package.tgz
+verbose parent C:\Users\Nicholas\AppData\Local\Temp\npm-1339277680535\1339277691070-0.5392911341041327\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\___package.npm'
+verbose mkdir done: C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\___package.npm\package
+verbose rm'ed C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package
+verbose renamed [ 'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\request\\2.9.202\\___package.npm\\package',
+verbose renamed   'C:\\Users\\Nicholas\\AppData\\Roaming\\npm-cache\\request\\2.9.202\\package' ]
+verbose caching C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package\package.json
+verbose loadDefaults request@2.9.202
+silly updated sha bytes 40960
+silly updated sha bytes 34610
+info shasum 2af68e62dc913c1cf4564528726bcf977faa3371
+info shasum C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package.tgz
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package\package.json
+verbose chmod C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package.tgz 644
+silly skipping chown for windows C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package.tgz
+silly resolved [ { name: 'cssom',
+silly resolved     description: 'CSS Object Model implementation and CSS parser',
+silly resolved     keywords: [ 'CSS', 'CSSOM', 'parser', 'styleSheet' ],
+silly resolved     version: '0.2.3',
+silly resolved     homepage: 'https://github.com/NV/CSSOM',
+silly resolved     author: { name: 'Nikita Vasilyev', email: 'me@elv1s.ru' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/NV/CSSOM.git' },
+silly resolved     bugs: { url: 'https://github.com/NV/CSSOM/issues' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/index.js',
+silly resolved     engines: { node: '>=0.2.0' },
+silly resolved     devDependencies: { jake: '0.2.x' },
+silly resolved     licenses: [ { type: 'MIT', url: 'http://creativecommons.org/licenses/MIT/' } ],
+silly resolved     scripts: { prepublish: 'jake lib/index.js' },
+silly resolved     _id: 'cssom@0.2.3',
+silly resolved     dependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: 'f64c6d0e5c136fa90b380c770e820b9f21912e2d' } },
+silly resolved   { name: 'contextify',
+silly resolved     version: '0.1.3',
+silly resolved     description: 'Turn an object into a persistent execution context.',
+silly resolved     author: { name: 'Brian McDaniel', email: 'brianmcd05@gmail.com' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Assaf Arkin',
+silly resolved          email: 'assaf@labnotes.org',
+silly resolved          url: 'http://labnotes.org/' } ],
+silly resolved     keywords: [ 'context', 'vm' ],
+silly resolved     repository: { type: 'git', url: 'git://github.com/brianmcd/contextify.git' },
+silly resolved     main: './lib/contextify',
+silly resolved     scripts: 
+silly resolved      { test: 'nodeunit test/',
+silly resolved        preinstall: 'node-waf clean || (exit 0); node-waf configure build' },
+silly resolved     engines: { node: '>=0.4.0' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/brianmcd/contextify/blob/master/LICENSE.txt' } ],
+silly resolved     dependencies: { bindings: '*' },
+silly resolved     devDependencies: { nodeunit: '>=0.5.x' },
+silly resolved     _id: 'contextify@0.1.3',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '41a7d7b0cd119df46cdee1e130694d708836e6b7' } },
+silly resolved   { name: 'request',
+silly resolved     description: 'Simplified HTTP request client.',
+silly resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+silly resolved     version: '2.9.202',
+silly resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/mikeal/request.git' },
+silly resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+silly resolved     engines: [ 'node >= 0.3.6', node: ' >= 0.3.6' ],
+silly resolved     main: './main',
+silly resolved     scripts: { test: 'node tests/run.js' },
+silly resolved     _id: 'request@2.9.202',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.0-beta-10',
+silly resolved     _nodeVersion: 'v0.6.7',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '2af68e62dc913c1cf4564528726bcf977faa3371' } } ]
+info into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom cssom@0.2.3
+info into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom contextify@0.1.3
+info into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom request@2.9.202
+info installOne cssom@0.2.3
+info installOne contextify@0.1.3
+info installOne request@2.9.202
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\contextify
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\cssom\0.2.3\package\package.json
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\contextify\0.1.3\package\package.json
+verbose from cache C:\Users\Nicholas\AppData\Roaming\npm-cache\request\2.9.202\package\package.json
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules'
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___cssom.npm'
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___request.npm'
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___cssom.npm 755
+verbose mkdir (expected) error ENOENT, no such file or directory 'c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___contextify.npm'
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___request.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom
+silly gunzTarPerm modes [ '755', '644' ]
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___contextify.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\contextify
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___contextify.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\contextify
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\___contextify.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\contextify' ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\contextify\\package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\contextify\package.json
+verbose loadDefaults contextify@0.1.3
+info preinstall contextify@0.1.3
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "node-waf clean || (exit 0); node-waf configure build"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'node-waf clean || (exit 0); node-waf configure build' ],
+silly spawning   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\contextify' ]
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___cssom.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\___cssom.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\cssom' ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom\package.json
+verbose loadDefaults cssom@0.2.3
+info preinstall cssom@0.2.3
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom\package.json
+verbose into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom []
+silly resolved []
+verbose about to build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom
+info build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\cssom\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules' ]
+info linkStuff cssom@0.2.3
+verbose linkBins cssom@0.2.3
+verbose linkMans cssom@0.2.3
+verbose rebuildBundles cssom@0.2.3
+info install cssom@0.2.3
+info postinstall cssom@0.2.3
+verbose installOne cb cssom@0.2.3
+silly afterUntar undefined
+verbose gunzed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\___request.npm\package
+verbose rm'ed c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request
+verbose renamed [ 'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\___request.npm\\package',
+verbose renamed   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules\\request' ]
+verbose caching c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request\package.json
+verbose loadDefaults request@2.9.202
+info preinstall request@2.9.202
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request\package.json
+verbose into c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request []
+silly resolved []
+verbose about to build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request
+info build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\request\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules' ]
+info linkStuff request@2.9.202
+verbose linkBins request@2.9.202
+verbose linkMans request@2.9.202
+verbose rebuildBundles request@2.9.202
+info install request@2.9.202
+info postinstall request@2.9.202
+verbose installOne cb request@2.9.202
+info contextify@0.1.3 Failed to exec preinstall script
+ERR! error installing contextify@0.1.3
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\contextify
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\node_modules\contextify\package.json
+info preuninstall contextify@0.1.3
+info uninstall contextify@0.1.3
+verbose unbuild contextify@0.1.3 [ false,
+verbose unbuild contextify@0.1.3   'c:\\xampp\\htdocs\\github\\bdq\\node_modules',
+verbose unbuild contextify@0.1.3   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules\\jsdom\\node_modules' ]
+info postuninstall contextify@0.1.3
+verbose installOne cb contextify@0.1.3
+verbose about to build c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom
+ERR! error installing jsdom@0.2.14
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\node_modules\jsdom\package.json
+info preuninstall jsdom@0.2.14
+info uninstall jsdom@0.2.14
+verbose unbuild jsdom@0.2.14 [ false,
+verbose unbuild jsdom@0.2.14   'c:\\xampp\\htdocs\\github\\bdq\\node_modules',
+verbose unbuild jsdom@0.2.14   'c:\\xampp\\htdocs\\github\\bdq\\node_modules\\jquery\\node_modules' ]
+info postuninstall jsdom@0.2.14
+verbose installOne cb jsdom@0.2.14
+verbose about to build c:\xampp\htdocs\github\bdq\node_modules\jquery
+ERR! error installing jquery@1.7.2
+info unbuild c:\xampp\htdocs\github\bdq\node_modules\jquery
+verbose from cache c:\xampp\htdocs\github\bdq\node_modules\jquery\package.json
+info preuninstall jquery@1.7.2
+info uninstall jquery@1.7.2
+verbose unbuild jquery@1.7.2 [ true,
+verbose unbuild jquery@1.7.2   'c:\\xampp\\htdocs\\github\\bdq\\node_modules',
+verbose unbuild jquery@1.7.2   'c:\\xampp\\htdocs\\github\\bdq\\node_modules' ]
+info postuninstall jquery@1.7.2
+verbose installOne cb jquery@1.7.2
+ERR! contextify@0.1.3 preinstall: `node-waf clean || (exit 0); node-waf configure build`
+ERR! `cmd "/c" "node-waf clean || (exit 0); node-waf configure build"` failed with 1
+ERR! 
+ERR! Failed at the contextify@0.1.3 preinstall script.
+ERR! This is most likely a problem with the contextify package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-waf clean || (exit 0); node-waf configure build
+ERR! You can get their info via:
+ERR!     npm owner ls contextify
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery"
+ERR! cwd c:\xampp\htdocs\github\bdq
+ERR! node -v v0.6.7
+ERR! npm -v 1.1.0-beta-10
+ERR! code ELIFECYCLE
+ERR! message contextify@0.1.3 preinstall: `node-waf clean || (exit 0); node-waf configure build`
+ERR! message `cmd "/c" "node-waf clean || (exit 0); node-waf configure build"` failed with 1
+verbose exit [ 1, true ]
